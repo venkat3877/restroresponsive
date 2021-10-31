@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+      body {
+        margin: 0;
+        background-image: url("https://png.pngtree.com/back_origin_pic/03/91/31/216a8c258305188af56217c3b58b99c5.jpg");
+        background-size: cover;
+      
+      }
+      #main {
+        padding: 150px 200px 50px 10px;
+        display: flex;
+        flex-wrap: wrap;
+      }
+     #container {
+      background-color:cornsilk;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 10px;
+      }
+      h2 {
+        color: rgb(255, 255, 148);
+        font-style: oblique;
+        font-size: 30px;
+        text-align: center;
+        margin: 0;
+        text-shadow: 3px 3px Black;
+      }
+      button:hover{
+        background-color: skyblue;
+      }
+      #first{
+    background-color: black;
+    height:75px;
+}
+#a1{
+    text-decoration:none;
+    color:cornsilk;
+    line-height: 75px;
+    margin-right: 20px;
+}
+#name{
+    color:cornsilk;
+    text-align: center;
+    line-height:  40px;
+    width :40%;
+    float:left;
+}
+
+#menu{
+    
+    width:60%;
+    float: right;
+    text-align: center;
+
+}
+     
+    </style>
+  </head>
+  <body>
+    <div id="first">
+      <div id="name">
+        <h1>Dummy's Food World</h1>
+      </div>
+      <div id="menu">
+        <a href="index.html" id="a1">Home</a>
+      </div>
+    </div>
+    <div id="main">
+      <div id="container">
+        <form>
+          <h2>Dummy Food Login</h2>
+          <table id="tab">
+            <tr>
+              <td><label>Enter email :</label></td>
+              <td>
+                <input type="email" required placeholder="Enter email" />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Enter password:</label></td>
+              <td>
+                <input
+                  type="password"
+                  required
+                  minlength="8"
+                  placeholder="Enter password"
+                />
+              </td>
+            </tr>
+            <td></td>
+            <td>
+              <button type="button">Forgot password</button>
+              <button type="submit">Login</button>
+            </td>
+            <tr>
+              <td></td>
+
+              <td>
+                <button style="width: 125px;">
+               <a href="signup.html" style="text-decoration: none;color: black;" >Not have an account SignUp!!</a>
+              </button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

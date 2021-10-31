@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SignUp</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      background-image: url("https://png.pngtree.com/back_origin_pic/03/91/31/216a8c258305188af56217c3b58b99c5.jpg");
+      background-size: cover;
+     
+
+    }
+    #main {
+      padding: 50px 350px 50px 0px;
+      display: flex;
+      flex-wrap: wrap;
+      
+    }
+
+    input:hover {
+      color: purple;
+    }
+    h2 {
+      text-align: center;
+      font-style: oblique;
+      font-size: 30px;
+    }
+    #container {
+      background-color:cornsilk;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 10px;
+    }
+    button:hover{
+      background-color:skyblue;
+    }
+    #in:hover{
+      background-color:skyblue;
+    }
+    #first{
+    background-color: black;
+    height:75px;
+}
+#name{
+    color:cornsilk;
+    text-align: center;
+    line-height:  40px;
+    width :40%;
+    float:left;
+}
+
+#menu{
+    
+    width:60%;
+    float: right;
+    text-align: center;
+
+}
+#a1{
+    text-decoration:none;
+    color:cornsilk;
+    line-height: 75px;
+    margin-right: 20px;
+}
+   
+  
+  </style>
+  <body>
+    <div id="first">
+      <div id="name">
+        <h1>Dummy's Food World</h1>
+      </div>
+      <div id="menu">
+        <a href="index.html"  id="a1">Home</a>
+      </div>
+    </div>
+    <div id="main">
+      <div id="container">
+        <form>
+          <h2>Registration Form</h2>
+          <table>
+            <tr>
+              <td><label>First Name:</label></td>
+              <td>
+                <input
+                  type="text"
+                  required
+                  placeholder="First Name"
+                  minlength="3"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Last Name:</label></td>
+              <td>
+                <input
+                  type="text"
+                  required
+                  placeholder="Last Name"
+                  minlength="5"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Email:</label></td>
+              <td><input type="email" required placeholder="Email" /></td>
+            </tr>
+            <tr>
+              <td><label>Enter Password:</label></td>
+              <td>
+                <input
+                  type="password"
+                  required
+                  placeholder="Enter Password"
+                  minlength="8"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Confirm Password:</label></td>
+              <td>
+                <input
+                  type="password"
+                  required
+                  placeholder="Confirm Password"
+                  minlength="8"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Phone Number:</label></td>
+              <td>
+                <select>
+                  <option>+91</option>
+                  <option>+11</option>
+                  <option>+22</option>
+                </select>
+                <input
+                  type="tel"
+                  placeholder="Phone Number"
+                  minlength="10"
+                  maxlength="10"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Gender:</label></td>
+              <td>
+                <input type="radio" name="gender" required />
+                <label>Male</label>
+                <input type="radio" name="gender" />
+                <label>Female</label>
+              </td>
+            </tr>
+            <tr>
+              <td><label>City:</label></td>
+              <td>
+                <input type="text" required placeholder="City" minlength="5" />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Pincode:</label></td>
+              <td>
+                <input
+                  type="tel"
+                  required
+                  placeholder="Pincode"
+                  minlength="6"
+                  maxlength="6"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label>Favourite foods:</label></td>
+              <td>
+                <input type="checkbox">
+                <label>Pizza</label>
+                <input type="checkbox">
+                <label>Burger</label>
+                <input type="checkbox">
+                <label>Frenchfries</label>
+               
+              </td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <input type="reset" id="in"/>
+                <button>Register!</button>
+              </td>
+            </tr>
+            <tr>
+            <td></td>
+              <td>
+              <button style="width: 125px;">
+                <a  href="login.html" style="text-decoration: none;color: black;" >Already have an account? Login!!</a>
+               </button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
